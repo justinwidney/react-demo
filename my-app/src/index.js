@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+import Weclome from './components/welcome';
+
+
 function Square(props) {
     return ( <button className='square' onClick={props.onClick}>
         {props.value}
@@ -110,6 +113,7 @@ function Square(props) {
             onClick = {i => this.handleClick(i)}/>
           </div>
           <div className="game-info">
+            <Weclome></Weclome>
             <div>{status}</div>
             <ol>{moves}</ol>
           </div>
