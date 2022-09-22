@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": ["eslint:recommened", "prettier"],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersions": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
