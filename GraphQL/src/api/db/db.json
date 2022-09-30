@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": "jBWMVGjm50l6LGwepDoty",
+    "username": "frontendmaster"
+  },
+  "pet": [
+    {
+    "id":"1234",
+    "createdAt": "12:01",
+    "name": "Test_Name",
+    "type": "DOG"
+    },   
+     {
+    "id": "1235",
+    "createdAt": "!",
+    "name": "Test_Name_2",
+    "type": "CAT"
+    },
+     {
+    "id": "1236",
+    "createdAt": "!",
+    "name": "Test_Name_3",
+    "type": "CAT"
+    }
+  ]
+}

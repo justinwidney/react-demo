@@ -1,0 +1,16 @@
+{
+  "name": "GraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0",
+    "lowdb": "^1.0.0",
+    "nanoid": "^2.1.1"
+  },
+  "scripts": {
+    "server": "node api/server.js"
+  }
+}
